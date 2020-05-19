@@ -2,12 +2,18 @@ import React from 'react';
 import logo from './logo.svg';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
-import './Projects.js';
-import './About.js';
+import Projects from './Projects.js';
+import About from './About.js';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
+
+      //set in router
+      <Route path='/Projects' component={Projects} />
+      <Route path='/About' component={About} />
+
        <div className="navigation">
         <img src={logo} className="logo" alt="Logo Image" />
         <div className="navigation-sub">
@@ -32,6 +38,7 @@ function App() {
         </a>
       </header> */}
     </div>
+    </BrowserRouter>
   );
 }
 
