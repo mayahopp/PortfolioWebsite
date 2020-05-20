@@ -1,5 +1,5 @@
 import React from "react"
-import Thumbnail from './Thumbnail.js';
+import Thumbnail from '../Thumbnail.js';
  
 function About(props) {
   return (
