@@ -4,9 +4,11 @@ import './App.css';
 import Projects from './Projects.js';
 import About from './About.js';
 import './Navbar.css';
+import face from './portfolioimg/face.jpg';
 
 function App() {
   return (
+    <div>
     <BrowserRouter>
     <div className="App">
 
@@ -28,6 +30,9 @@ function App() {
 
     </div>
     </BrowserRouter>
+
+    <img src={face}  alt="face.jpg" />
+    </div>
   );
 }
 
