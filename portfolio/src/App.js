@@ -22,7 +22,7 @@ function App() {
           <Link to="/Projects" className="item">PROJECTS</Link>
           <Link to ="/About" className="item">ABOUT</Link>
           <Link to ="/something" className="item">SOMETHINGV</Link>
-          <img src =""></img> 
+          
         </div>
       </div>
 
