@@ -1,9 +1,12 @@
 .navigation-sub .item {
     font-size: 8pt;
-   
     margin: 20pt;
     float: right;
+    
 
+}
+.navigation-sub .item:hover{
+    color:pink;
 }
 
 h1{
@@ -12,4 +15,9 @@ h1{
     padding: 0pt;
     margin-left: 10pt;
 
+}
+
+#menu-list-grow{
+
+    font-size: 5pt;
 }

@@ -1,25 +1,33 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
-import Projects from './Components/Projects.js';
+import Analog from './Components/Analog.js'
 import About from './Components/About.js';
 import Home from './Components/Home.js';
+import Digital from './Components/Digital.js';
 import './Navbar.css';
+import MenuListComposition from './Components/Navigation.js';
+
 
 
 function App() {
   return (
+    
     <div>
+    {/* <MenuListComposition />
+    <Home />   */}
+
     <BrowserRouter>
     <div className="App">
 
-      <h1>MAYA HOPPER </h1>
-       <div className="navigation">
      
+       <div className="navigation">
+       <h1>MAYA HOPPER </h1>
         <div className="navigation-sub">
-          {/*Links */}
-          <Link to="/Projects" className="item">PROJECTS</Link>
+         
           <Link to ="/About" className="item">ABOUT</Link>
+          <Link to="/Analog" className="item">ANALOG</Link>
+          <Link to="/Digital" className="item">DIGITAL</Link>
           <Link to ="/Home" className="item">HOME</Link>
           
         </div>
@@ -28,13 +36,14 @@ function App() {
     </div>
       <Route exact path='/' component={Home} />
       <Route path='/Home' component={Home} />
-      <Route path='/Projects' component={Projects} />
+      <Route path='/Analog' component={Analog} />
+      <Route path='/Digital' component={Digital} />
       <Route path='/About' component={About} />
 
-    </BrowserRouter>
+    </BrowserRouter>  
 
+</div>
 
-    </div>
   );
 }
 
