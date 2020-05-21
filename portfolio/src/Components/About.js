@@ -1,17 +1,24 @@
 import React from "react"
-import Thumbnail from '../Thumbnail.js';
+import face from '../portfolioimg/face.jpg';
  
 function About(props) {
   return (
     <div>
-      <h1>About</h1>
-      <Thumbnail
-      link= ""
-      image=""
-      title="abcdef"
-      category=""
-      />
+      
+      <img src={face}  alt="face.jpg" className='face' />
+
+      <div>
+<h1>About</h1>
+<p>My name is maya Hopper</p>
+
+<p>contact</p>
+<ul> 
+  <li>one</li>
+  <li>two</li>
+</ul>
     </div>
+    </div>
+    
   )
 }
  

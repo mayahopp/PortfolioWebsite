@@ -1,10 +1,10 @@
 import React from "react";
-import face from '../portfolioimg/face.jpg';
+import facehome from '../portfolioimg/face.jpg';
  
 function Home(props) {
   return (
     <div>
-     <img src={face}  alt="face.jpg" className='face' />
+     <img src={facehome}  alt="face.jpg" className='facehome' />
     </div>
   )
 }

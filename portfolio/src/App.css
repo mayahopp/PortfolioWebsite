@@ -37,8 +37,44 @@
   }
 }
 
-.face{
+.facehome{
   border-radius: 50%;
   height:1000pt;
   float: auto;
+}
+
+.chair1{
+  height:200pt;
+  padding-top: 200pt;
+  padding-left: 20pt;
+
+}
+.chair2{
+  height:200pt;
+}
+.chair3{
+  height:200pt;
+}
+
+
+
+
+.kimono{
+  height:200pt;
+}
+.long{
+  height:200pt;
+
+}
+.face{
+  height:200pt;
+}
+.squid{
+  height:200pt;
+}
+.rin{
+  height:200pt;
+}
+.daniel{
+  height:200pt;
 }
