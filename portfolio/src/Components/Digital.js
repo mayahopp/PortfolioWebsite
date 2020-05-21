@@ -8,10 +8,23 @@ import '../App.css';
 function Digital(props) {
   return (
     <div>
-     <img src={chair1}  alt="chair1.jpg" className='chair1' />
-     <img src={chair2}  alt="chair2.jpg" className='chair2' />
-     <img src={chair3}  alt="chair3.jpg" className='chair3' />
- 
+      
+<h1> digital work</h1> 
+      <Thumbnail
+        link= ""
+        image={chair1}
+        title="Chair #1"
+      />
+      <Thumbnail
+        link= ""
+        image={chair2}
+        title="Chair #2"
+      />
+      <Thumbnail
+        link= ""
+        image={chair3}
+        title="Chair #3"
+      />
     </div>
   )
 }

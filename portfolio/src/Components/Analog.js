@@ -15,19 +15,54 @@ import '../App.css';
 function Analog(props) {
   return (
     <div>
-      {/* <h1>Projects</h1>
+    <h2>Digital work</h2>
+
       <Thumbnail
-      link= "../portfolioimg/360hair1.jpg"
+      link= "./About.js"
+      image={kimono}
+      title="kimono"
+      /> 
+      <h2>kimono</h2>
+      <Thumbnail
+      link= ""
+      image={daniel}
+      title="daniel"
+      /> 
+      <Thumbnail
+      link= ""
+      image={rin}
+      title="rin"
+      /> 
+      <Thumbnail
+      link= ""
+      image={face}
+      title="face"
+      /> 
+      <Thumbnail
+      link= ""
+      image={squid}
+      title="squid"
+      /> 
+      <Thumbnail
+      link= ""
+      image={long}
+      title="long"
+      /> 
+      <Thumbnail
+      link= ""
       image={hair1}
-      title="360 Hair #1"
-      /> */}
-      
+      title="hair1"
+      /> 
+     
+
+
+{/*       
      <img src={kimono}  alt="kimono.jpg" className='kimono' />
      <img src={long}  alt="long.jpg" className='long' />
      <img src={rin}  alt="rin.jpg" className='rin' />
      <img src={face}  alt="face.jpg" className='face' />
      <img src={squid}  alt="squid.jpg" className='squid' />
-     <img src={daniel}  alt="daniel.jpg" className='daniel' />
+     <img src={daniel}  alt="daniel.jpg" className='daniel' /> */}
 
       
     </div>

@@ -43,7 +43,19 @@
   float: auto;
 }
 
-.chair1{
+.project-image img{
+height:200pt;
+width: auto;
+}
+
+.project-title{
+  font-size: 10pt;
+}
+
+.face{
+  height:50pt;
+}
+/* .chair1{
   height:200pt;
   padding-top: 200pt;
   padding-left: 20pt;
@@ -55,9 +67,6 @@
 .chair3{
   height:200pt;
 }
-
-
-
 
 .kimono{
   height:200pt;
@@ -77,4 +86,4 @@
 }
 .daniel{
   height:200pt;
-}
+} */

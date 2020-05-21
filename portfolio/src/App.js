@@ -24,21 +24,25 @@ function App() {
        <div className="navigation">
        <h1>MAYA HOPPER </h1>
         <div className="navigation-sub">
+          <nav>
          
           <Link to ="/About" className="item">ABOUT</Link>
           <Link to="/Analog" className="item">ANALOG</Link>
           <Link to="/Digital" className="item">DIGITAL</Link>
           <Link to ="/Home" className="item">HOME</Link>
           
+          </nav>
         </div>
       </div>
 
     </div>
+    
       <Route exact path='/' component={Home} />
       <Route path='/Home' component={Home} />
       <Route path='/Analog' component={Analog} />
       <Route path='/Digital' component={Digital} />
       <Route path='/About' component={About} />
+
 
     </BrowserRouter>  
 
