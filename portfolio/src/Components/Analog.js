@@ -18,7 +18,7 @@ function Analog(props) {
     <h2>Digital work</h2>
 
       <Thumbnail
-      link= "./About.js"
+      link= ""
       image={kimono}
       title="kimono"
       /> 

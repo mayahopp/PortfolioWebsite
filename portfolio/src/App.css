@@ -46,6 +46,8 @@
 .project-image img{
 height:200pt;
 width: auto;
+float: center;
+padding-left: 100pt;
 }
 
 .project-title{

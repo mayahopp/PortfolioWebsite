@@ -37,7 +37,7 @@ function App() {
 
     </div>
     
-      <Route exact path='/' component={Home} />
+      <Route exact path='/' component={About} />
       <Route path='/Home' component={Home} />
       <Route path='/Analog' component={Analog} />
       <Route path='/Digital' component={Digital} />
