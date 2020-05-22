@@ -1,6 +1,7 @@
 import React from 'react'
 //import Thumbnail from '../Thumbnail.js';
-//import Thumbnail from 'react-thumbnail';
+
+import Zoom from 'react-thumbnail-zoom'
 import kimono from '../portfolioimg/kimono.jpg'
 import daniel from '../portfolioimg/daniel.jpg'
 import face from '../portfolioimg/face.jpg'
@@ -12,50 +13,51 @@ import hair2 from '../portfolioimg/360hair2.jpg'
 import hair3 from '../portfolioimg/360hair3.jpg'
 import hair4 from '../portfolioimg/360hair4.jpg'
 import '../App.css';
-
-import Thumbnail from 'react-thumbnail';
+import '../portfolioimg/kimono.jpg'
  
 function Analog(props) {
   return (
-    <div>
-    <h2>Digital work</h2>
 
-      <Thumbnail
+    <div>
+   <h1>analog work</h1>
+
+      {/* <Zoom
       link= ""
       image={kimono}
       title="kimono"
       /> 
       <h2>kimono</h2>
-      <Thumbnail
+      <Zoom
       link= ""
       image={daniel}
       title="daniel"
       /> 
-      <Thumbnail
+      <Zoom
       link= ""
       image={rin}
       title="rin"
       /> 
-      <Thumbnail
+      <Zoom
       link= ""
       image={face}
       title="face"
       /> 
-      <Thumbnail
+      <Zoom
       link= ""
       image={squid}
       title="squid"
       /> 
-      <Thumbnail
+      <Zoom
       link= ""
       image={long}
       title="long"
-      /> 
-      <Thumbnail
-      link= ""
-      image={hair1}
-      title="hair1"
-      /> 
+      />  */}
+      
+      <Zoom>
+      <img src='../portfolioimg/kimono.jpg' className='kimono'/>
+      </ Zoom> 
+      
+   
      
 
 

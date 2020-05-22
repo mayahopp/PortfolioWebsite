@@ -13,9 +13,7 @@ code {
     monospace;
 }
 
-.h1{
-  font-family: MyFont;
-}
+
 @font-face {
   font-family: 'Myfont';
   src: local('Myfont'), url(./font/NanumGothic-Regular.ttf) format('ttf');
