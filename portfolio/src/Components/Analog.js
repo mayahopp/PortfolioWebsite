@@ -1,5 +1,6 @@
 import React from 'react'
-import Thumbnail from '../Thumbnail.js';
+//import Thumbnail from '../Thumbnail.js';
+//import Thumbnail from 'react-thumbnail';
 import kimono from '../portfolioimg/kimono.jpg'
 import daniel from '../portfolioimg/daniel.jpg'
 import face from '../portfolioimg/face.jpg'
@@ -11,6 +12,8 @@ import hair2 from '../portfolioimg/360hair2.jpg'
 import hair3 from '../portfolioimg/360hair3.jpg'
 import hair4 from '../portfolioimg/360hair4.jpg'
 import '../App.css';
+
+import Thumbnail from 'react-thumbnail';
  
 function Analog(props) {
   return (
