@@ -15,8 +15,9 @@ class Navbar extends Component {
              <h1>MAYA HOPPER</h1>
 
              {/* <div class="btn-group"> */}
-                <Button variant="link" onClick={() => this.updateMainContent("projects")}>Projects</Button>
+                <Button variant="link" onClick={() => this.updateMainContent("digital")}>Digital</Button>
                 <Button variant="link" onClick={() => this.updateMainContent("about")}>About</Button>
+                <Button variant="link" onClick={() => this.updateMainContent("analog")}>Analog</Button>
              {/* </div> */}
              </div>
         

@@ -54,7 +54,7 @@ function Analog(props) {
       />  */}
       
       <Zoom>
-      <img src='../portfolioimg/kimono.jpg' className='kimono'/>
+      <img src={kimono} className='kimono'/>
       </ Zoom> 
       
    

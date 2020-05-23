@@ -8,8 +8,8 @@ import font from '../portfolioimg/Font.jpg';
 import sky from '../portfolioimg/sky.jpg';
 import manga from '../portfolioimg/manga.jpg';
 import '../App.css';
+import '../portfolioimg/chair1.jpg'
 
- 
 function Digital(props) {
   return (
     <div>
@@ -47,7 +47,7 @@ function Digital(props) {
       /> */}
       
       <Zoom>
-      <img src='../portfolioimg/chair1.jpg' className='chair1'/>
+      <img src={chair1} className='chair1'/>
       </ Zoom> 
     </div>
   )

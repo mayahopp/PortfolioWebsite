@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import '../App.css';
 import About from './About.js'
 import Projects from './Projects.js'
-
+import Analog from './Analog.js'
+import Digital from './Digital.js'
 
 class MainContent extends Component {
 
@@ -13,8 +14,11 @@ class MainContent extends Component {
         else if (this.props.content === "about") {
             return (<About />)
         }
-        else if (this.props.content === "projects") {
-            return (<Projects />)
+        else if (this.props.content === "analog") {
+            return (<Analog />)
+        }
+        else if (this.props.content === "digital") {
+            return (<Digital />)
         };
     }
     
