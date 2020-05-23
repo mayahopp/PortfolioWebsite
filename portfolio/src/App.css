@@ -57,6 +57,18 @@ padding-left: 100pt;
 .face{
   height:50pt;
 }
+
+.header{
+  text-align:  left;
+}
+.header h1 {
+    display: inline-block;
+}
+
+.header Button {
+    float: right;
+}
+
 /* .chair1{
   height:200pt;
   padding-top: 200pt;

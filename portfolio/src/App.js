@@ -1,28 +1,45 @@
-import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import './App.css';
-import Analog from './Components/Analog.js'
-import About from './Components/About.js';
-import Home from './Components/Home.js';
-import Digital from './Components/Digital.js';
-import './Navbar.css';
-import MenuListComposition from './Components/Navigation.js';
+import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import { BrowserRouter, Route, Link } from 'react-router-dom';
+// import './App.css';
+// import Analog from './Components/Analog.js'
+// import About from './Components/About.js';
+// import Home from './Components/Home.js';
+// import Digital from './Components/Digital.js';
+// import './Navbar.css';
+// import MenuListComposition from './Components/Navigation.js';
+import Navbar from './Components/Navbar.js';
+import MainContent from './Components/MainContent.js';
 
 
 
-function App() {
-  return (
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      content: "default"
+    };
+  }
+
+  updateContent = (pageToDisplay) => {
+    this.setState({content: pageToDisplay})
+  };
+
+  render() { 
+    return (
     
     <div>
     {/* <MenuListComposition />
     <Home />   */}
 
-    <BrowserRouter>
+    {/* <BrowserRouter> */}
     <div className="App">
-
+      <Navbar callbackFunction = {this.updateContent}/>
      
-       <div className="navigation">
-       <h1>MAYA HOPPER </h1>
+      <MainContent content={this.state.content} />
+       {/* <div className="navigation">
+       
 
         <div className="navigation-sub">
           <Link to ="/About" className="item">ABOUT</Link>
@@ -32,23 +49,24 @@ function App() {
           
           
         </div>
-      </div>
+      </div> */}
 
     </div>
     
-      <Route exact path='/' component={About} />
+      {/* <Route exact path='/' component={About} />
       <Route path='/Home' component={Home} />
       <Route path='/Analog' component={Analog} />
       <Route path='/Digital' component={Digital} />
       <Route path='/About' component={About} />
 
 
-    </BrowserRouter>  
+    </BrowserRouter>   */}
 
 
 </div>
 
   );
-}
+}}
+
 
 export default App;

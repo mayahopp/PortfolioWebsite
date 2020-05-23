@@ -1,25 +1,21 @@
-import React from "react"
-import face from '../portfolioimg/face.jpg';
- 
-function About(props) {
-  return (
+import React, {Component} from "react"
+//import face from '../portfolioimg/face.jpg';
+
+
+class About extends Component { 
+  render() {
+    return (
     <div>
-      
-      <img src={face}  alt="face.jpg" className='face' />
+      <h1>About</h1>
+      <p>My name is maya Hopper</p>
 
-      <div>
-<h1>About</h1>
-<p>My name is maya Hopper</p>
-
-<p>contact</p>
-<ul> 
-  <li>one</li>
-  <li>two</li>
-</ul>
+      <p>contact</p>
+      <ul> 
+        <li>one</li>
+        <li>two</li>
+      </ul>
     </div>
-    </div>
-    
-  )
-}
- 
-export default About;
+      );
+    }
+  }
+ export default About;
