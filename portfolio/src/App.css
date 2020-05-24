@@ -80,9 +80,9 @@ padding-left: 100pt;
  .btn-titletext {
   float:left;
   font-size:250%;
-  color:green;
-  padding-left:10pt;
-  text-decoration: none;
+  color:green !important;
+  padding-left:30pt !important;
+  text-decoration: none !important;
 }
 .titletext .btn:hover{
   color:black;
