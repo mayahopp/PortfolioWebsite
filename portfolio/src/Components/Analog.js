@@ -1,7 +1,7 @@
 import React from 'react'
 //import Thumbnail from '../Thumbnail.js';
-
-import Zoom from 'react-thumbnail-zoom'
+import Image from "react-image-enlarger";
+//import Zoom from 'react-thumbnail-zoom'
 import kimono from '../portfolioimg/kimono.jpg'
 import daniel from '../portfolioimg/daniel.jpg'
 import face from '../portfolioimg/face.jpg'
@@ -15,67 +15,35 @@ import hair4 from '../portfolioimg/360hair4.jpg'
 import '../App.css';
 import '../portfolioimg/kimono.jpg'
  
+function SingleSource({ src }) {
+  const [zoomed, setZoomed] = React.useState(false);
+
+  return (
+    <div style={{ margin: "0.25rem" }}>
+      <Image
+        style={{ width: "200px", height: "auto" }}
+        zoomed={zoomed}
+        src={src}
+        onClick={() => setZoomed(true)}
+        onRequestClose={() => setZoomed(false)}
+      />
+    </div>
+  );
+}
+
+const images = [
+  kimono, daniel, face, squid, long, rin, hair1, hair2, hair3, hair4
+];
+
+
 function Analog(props) {
   return (
-
-    <div>
-   <h1>analog work</h1>
-
-      {/* <Zoom
-      link= ""
-      image={kimono}
-      title="kimono"
-      /> 
-      <h2>kimono</h2>
-      <Zoom
-      link= ""
-      image={daniel}
-      title="daniel"
-      /> 
-      <Zoom
-      link= ""
-      image={rin}
-      title="rin"
-      /> 
-      <Zoom
-      link= ""
-      image={face}
-      title="face"
-      /> 
-      <Zoom
-      link= ""
-      image={squid}
-      title="squid"
-      /> 
-      <Zoom
-      link= ""
-      image={long}
-      title="long"
-      />  */}
-      
-      <Zoom>
-      <img src={kimono}/>
-      </ Zoom> 
-
-
-      
-  
-
-     
-
-
-{/*       
-     <img src={kimono}  alt="kimono.jpg" className='kimono' />
-     <img src={long}  alt="long.jpg" className='long' />
-     <img src={rin}  alt="rin.jpg" className='rin' />
-     <img src={face}  alt="face.jpg" className='face' />
-     <img src={squid}  alt="squid.jpg" className='squid' />
-     <img src={daniel}  alt="daniel.jpg" className='daniel' /> */}
-
-      
+    <div style={{ display: "flex" }}>
+      {images.map(image => (
+        <SingleSource key={image} src={image} />
+      ))}
     </div>
-     
-  )
+  );
 }
  
 export default Analog;
