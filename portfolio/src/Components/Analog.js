@@ -54,10 +54,13 @@ function Analog(props) {
       />  */}
       
       <Zoom>
-      <img src={kimono} className='kimono'/>
+      <img src={kimono}/>
       </ Zoom> 
+
+
       
-   
+  
+
      
 
 
@@ -71,6 +74,7 @@ function Analog(props) {
 
       
     </div>
+     
   )
 }
  

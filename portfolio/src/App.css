@@ -52,6 +52,7 @@ padding-left: 100pt;
 
 .project-title{
   font-size: 10pt;
+  font-size: calc(10px + 2vmin)
 }
 
 .face{
@@ -60,14 +61,59 @@ padding-left: 100pt;
 
 .header{
   text-align:  left;
+  
 }
-.header h1 {
+.titletext .btn {
     display: inline-block;
 }
 
+.title{
+  padding-left:10pt;
+  padding-top:7pt;
+}
 .header Button {
     float: right;
 }
+.titletext{
+  display: table-row; 
+}
+ .titletext .btn{
+  float:left;
+  font-size:250%;
+  color:green;
+  padding-left:10pt;
+  text-decoration: none;
+}
+.titletext .btn:hover{
+  color:black;
+}
+
+.btn{
+  padding-top:7pt;
+  color:#282c34
+}
+.btn:hover{
+  color:grey
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn:active{
+  color:green;
+}
+.btn .title{
+  color:red;
+}
+
+
+.image{
+  width:100%;
+}
+
+.thumbnailZoom{
+  height:50pt;
+}
+
 
 /* .chair1{
   height:200pt;

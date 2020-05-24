@@ -15,39 +15,12 @@ function Digital(props) {
     <div>
       
 <h1> digital work</h1> 
-      {/* <Zoom
-        link= ""
-        image={chair1}
-        title="Chair #1"
-      />
-      <Zoom
-        link= ""
-        image={chair2}
-        title="Chair #2"
-      />
-      <Zoom
-        link= ""
-        image={chair3}
-        title="Chair #3"
-      />
-      <Zoom
-        link= ""
-        image={font}
-        title="font"
-      />
-      <Zoom
-        link= ""
-        image={manga}
-        title="manga"
-      />
-      <Zoom
-        link= ""
-        image={sky}
-        title="sky"
-      /> */}
-      
       <Zoom>
       <img src={chair1} className='chair1'/>
+      </ Zoom> 
+    
+      <Zoom>
+      <img src={chair2} />
       </ Zoom> 
     </div>
   )

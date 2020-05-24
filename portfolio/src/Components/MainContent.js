@@ -4,12 +4,14 @@ import About from './About.js'
 import Projects from './Projects.js'
 import Analog from './Analog.js'
 import Digital from './Digital.js'
+import Default from './Default.js'
 
 class MainContent extends Component {
 
     render() {
         if (this.props.content === "default") {
-            return (<h1>default</h1>)
+            return(<Default />)
+            // return (<h1>default</h1>)
         }
         else if (this.props.content === "about") {
             return (<About />)
