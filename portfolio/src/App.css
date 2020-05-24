@@ -114,6 +114,10 @@ padding-left: 100pt;
   height:50pt;
 }
 
+.imageblock {
+  text-align: center;
+  display:block;
+}
 
 /* .chair1{
   height:200pt;

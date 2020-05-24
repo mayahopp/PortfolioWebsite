@@ -29,17 +29,28 @@ function SingleSource({ src }) {
   );
 }
 
-const images = [
-  chair1,
-  chair2
+const groups = [
+  {text: "text for group 1", images: [chair1, chair2, chair3]}, 
+  {text: "text for group 2", images: [font]}, 
+  {text: "text for group 3", images: [sky]},
+  {text: "text for group 4", images: [manga]},
+
 ];
+
 
 
 function Digital(props) {
   return (
-    <div style={{ display: "flex" }}>
-      {images.map(image => (
-        <SingleSource key={image} src={image} />
+    <div style={{ display: "block" }}>
+      {groups.map(one_group => (
+        <div style={{ display: "block", textAlign: "left", paddingBottom: "100px"}}>
+        <div style={{ display: "flex" }}>
+          {one_group.images.map(image =>(
+          <SingleSource  key={image} src={image} />
+        ))}
+        </div>
+        {one_group.text}
+        </div>
       ))}
     </div>
   );

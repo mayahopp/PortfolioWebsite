@@ -31,16 +31,32 @@ function SingleSource({ src }) {
   );
 }
 
-const images = [
-  kimono, daniel, face, squid, long, rin, hair1, hair2, hair3, hair4
+// images array. images in each group will be displayed horizontally.
+// first element is the text that goes along with that group
+const groups = [
+  {text: "text for group 1", images: [kimono]}, 
+  {text: "text for group 2", images: [daniel]}, 
+  {text: "text for group 3", images: [face]},
+  {text: "text for group 4", images: [squid]},
+  {text: "text for group 5", images: [long]},
+  {text: "text for group 6", images: [rin]},
+  {text: "text for hair pics", images: [hair1, hair2, hair3, hair4]}
 ];
+
 
 
 function Analog(props) {
   return (
-    <div style={{ display: "flex" }}>
-      {images.map(image => (
-        <SingleSource key={image} src={image} />
+    <div style={{ display: "block" }}>
+      {groups.map(one_group => (
+        <div style={{ display: "block", textAlign: "left", paddingBottom: "100px"}}>
+        <div style={{ display: "flex" }}>
+          {one_group.images.map(image =>(
+          <SingleSource  key={image} src={image} />
+        ))}
+        </div>
+        {one_group.text}
+        </div>
       ))}
     </div>
   );
