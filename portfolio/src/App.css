@@ -77,7 +77,7 @@ padding-left: 100pt;
 .titletext{
   display: table-row; 
 }
- .titletext .btn{
+ .btn-titletext {
   float:left;
   font-size:250%;
   color:green;

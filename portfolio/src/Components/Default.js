@@ -5,7 +5,7 @@ import '../App.css';
 function Default(props) {
     return (
       <div>
-          <h1>default page</h1>
+          {/* <h1>default page</h1> */}
         <img src={image} className='image'/>
         </div>
     )
