@@ -9,6 +9,8 @@ import chair3 from '../portfolioimg/chair3.jpg';
 import font from '../portfolioimg/Font.jpg';
 import sky from '../portfolioimg/sky.jpg';
 import manga from '../portfolioimg/manga.jpg';
+import poster1 from '../portfolioimg/Poster2.png';
+import poster2 from '../portfolioimg/Poster1.png';
 import '../App.css';
 import '../portfolioimg/chair1.jpg'
 
@@ -30,7 +32,8 @@ function SingleSource({ src }) {
 }
 
 const groups = [
-  {text: "text for group 1", images: [chair1, chair2, chair3]}, 
+  {text: "Chair group\nibwow\n", images: [chair1, chair2, chair3]}, 
+  {text: "text for group 4", images: [poster1, poster2]},
   {text: "text for group 2", images: [font]}, 
   {text: "text for group 3", images: [sky]},
   {text: "text for group 4", images: [manga]},
@@ -41,17 +44,28 @@ const groups = [
 
 function Digital(props) {
   return (
+    <div> <h1>DIGITAL</h1>
     <div style={{ display: "block" }}>
+      
       {groups.map(one_group => (
+        
         <div style={{ display: "block", textAlign: "left", paddingBottom: "100px"}}>
-        <div style={{ display: "flex" }}>
+          
+        <div className='imgimg' style={{ display: "flex" }}>
           {one_group.images.map(image =>(
           <SingleSource  key={image} src={image} />
         ))}
         </div>
+        <div className='imgtext'>
         {one_group.text}
         </div>
-      ))}
+        <hr />
+        </div>
+        
+      )
+ 
+      ) }
+      </div>
     </div>
   );
 }

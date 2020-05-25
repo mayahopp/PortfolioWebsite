@@ -17,9 +17,9 @@ class Navbar extends Component {
                 <Button className="btn-titletext" variant="link" onClick={() => this.updateMainContent("default")}>MAYA HOPPER</Button>
 
                 <ButtonGroup>
-                    <Button variant="link" onClick={() => this.updateMainContent("analog")}>Analog</Button>
-                    <Button variant="link" onClick={() => this.updateMainContent("digital")}>Digital</Button>
-                    <Button variant="link" onClick={() => this.updateMainContent("about")}>About</Button>
+                    <Button variant="link" onClick={() => this.updateMainContent("analog")}>ANALOG</Button>
+                    <Button variant="link" onClick={() => this.updateMainContent("digital")}>DIGITAL</Button>
+                    <Button variant="link" onClick={() => this.updateMainContent("about")}>ABOUT</Button>
                 </ButtonGroup>
             </ButtonToolbar>
             </div>

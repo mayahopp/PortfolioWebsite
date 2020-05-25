@@ -37,52 +37,28 @@
   }
 }
 
-.facehome{
-  border-radius: 50%;
-  height:1000pt;
-  float: auto;
-}
 
-.project-image img{
-height:200pt;
-width: auto;
-float: center;
-padding-left: 100pt;
-}
 
-.project-title{
-  font-size: 10pt;
-  font-size: calc(10px + 2vmin)
-}
 
-.face{
-  height:50pt;
-}
 
-.header{
-  text-align:  left;
-  
-}
+
+
+
 .titletext .btn {
     display: inline-block;
 }
 
-.title{
-  padding-left:10pt;
-  padding-top:7pt;
-}
-.header Button {
-    float: right;
-}
+
 .titletext{
   display: table-row; 
 }
  .btn-titletext {
   float:left;
-  font-size:250%;
-  color:green !important;
-  padding-left:30pt !important;
+  font-size:270%;
+  color:black !important;
+  padding-left:15pt !important;
   text-decoration: none !important;
+  
 }
 .titletext .btn:hover{
   color:black;
@@ -101,17 +77,9 @@ padding-left: 100pt;
 .btn:active{
   color:green;
 }
-.btn .title{
-  color:red;
-}
-
 
 .image{
   width:100%;
-}
-
-.thumbnailZoom{
-  height:50pt;
 }
 
 .imageblock {
@@ -119,6 +87,58 @@ padding-left: 100pt;
   display:block;
 }
 
+.imgtext{
+  padding-left: 40pt;
+  white-space: pre-wrap;
+  font-size:13px;;
+  
+}
+.imgimg{
+  padding-left:40pt;
+  
+}
+hr{
+border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+  
+  @font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./font/Rajdhani-Regular.ttf) format('truetype');
+  }
+body {
+  font-family: 'MyFont';
+  background-color: #d2d4d2;
+}
+
+h1{
+  float: inherit;
+  font-size: 25pt;
+}
+.Abouth1{
+  
+  padding: 30pt;
+}
+
+.aboutpara{
+  padding-top: 30pt;
+  padding-left:20pt;
+  text-align: left;
+}
+p{
+  padding-left: 20pt;
+}
+h2{
+  font-size: 20pt;
+}
+h3{
+  font-size:16pt;
+}
+.pagetitle{
+  padding-bottom: 20px;
+}
 /* .chair1{
   height:200pt;
   padding-top: 200pt;

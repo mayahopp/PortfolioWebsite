@@ -19,7 +19,7 @@ function SingleSource({ src }) {
   const [zoomed, setZoomed] = React.useState(false);
 
   return (
-    <div style={{ margin: "0.25rem" }}>
+    <div style={{ margin: "0.5rem" }}>
       <Image
         style={{ width: "200px", height: "auto" }}
         zoomed={zoomed}
@@ -27,6 +27,8 @@ function SingleSource({ src }) {
         onClick={() => setZoomed(true)}
         onRequestClose={() => setZoomed(false)}
       />
+      
+      
     </div>
   );
 }
@@ -34,30 +36,39 @@ function SingleSource({ src }) {
 // images array. images in each group will be displayed horizontally.
 // first element is the text that goes along with that group
 const groups = [
-  {text: "text for group 1", images: [kimono]}, 
-  {text: "text for group 2", images: [daniel]}, 
-  {text: "text for group 3", images: [face]},
-  {text: "text for group 4", images: [squid]},
-  {text: "text for group 5", images: [long]},
-  {text: "text for group 6", images: [rin]},
-  {text: "text for hair pics", images: [hair1, hair2, hair3, hair4]}
+  {text: "Pen and ink\nsize", images: [kimono]}, 
+  {text: "Pen and ink\nsize", images: [daniel]}, 
+  {text: "Pencil\nsize", images: [face]},
+  {text: "Pen\nsize", images: [squid]},
+  {text: "Pen\nsize", images: [long]},
+  {text: "Pen\nsize", images: [rin]},
+  {text: "Acrylic, canvas board, thread\nsize", images: [hair1, hair2, hair3, hair4]}
 ];
 
 
 
 function Analog(props) {
   return (
+    <div> <h1 className='pagetitle'>↓　　ANALOG　　↓</h1>
     <div style={{ display: "block" }}>
       {groups.map(one_group => (
-        <div style={{ display: "block", textAlign: "left", paddingBottom: "100px"}}>
-        <div style={{ display: "flex" }}>
+        
+        <div style={{ display: "block", textAlign: "left", paddingBottom: "50px"}}>
+        <div className='imgimg' style={{ display: "flex" }}>
           {one_group.images.map(image =>(
-          <SingleSource  key={image} src={image} />
+            <SingleSource  key={image} src={image} />
         ))}
+        </div> 
+        
+          <div className='imgtext'>
+            {one_group.text }
+          </div>
+          <hr />
         </div>
-        {one_group.text}
-        </div>
+       
+        
       ))}
+      </div>
     </div>
   );
 }
