@@ -17,6 +17,7 @@
     "react-native": "^0.62.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-sticky-footer": "0.1.0-rc3",
     "react-thumbnail": "^1.0.0",
     "react-thumbnail-zoom": "^1.0.2"
   },

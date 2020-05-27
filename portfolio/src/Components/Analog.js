@@ -36,12 +36,12 @@ function SingleSource({ src }) {
 // images array. images in each group will be displayed horizontally.
 // first element is the text that goes along with that group
 const groups = [
-  {text: "Pen and ink\nsize", images: [kimono]}, 
-  {text: "Pen and ink\nsize", images: [daniel]}, 
-  {text: "Pencil\nsize", images: [face]},
-  {text: "Pen\nsize", images: [squid]},
-  {text: "Pen\nsize", images: [long]},
-  {text: "Pen\nsize", images: [rin]},
+  {text: "Pen and ink\n14in x 18in", images: [kimono]}, 
+  {text: "Pen and ink\n8.5in x 10.5", images: [daniel]}, 
+  {text: "Pencil\n11in x 14in", images: [face]},
+  {text: "Pen\n22in x 30in", images: [squid]},
+  {text: "Pen\n14.5in x 25in", images: [long]},
+  {text: "Pen\n13.5in x 17in", images: [rin]},
   {text: "Acrylic, canvas board, thread\nsize", images: [hair1, hair2, hair3, hair4]}
 ];
 

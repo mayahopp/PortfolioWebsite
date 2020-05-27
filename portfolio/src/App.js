@@ -11,7 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import MenuListComposition from './Components/Navigation.js';
 import Navbar from './Components/Navbar.js';
 import MainContent from './Components/MainContent.js';
-
+import StickyFooter from 'react-sticky-footer';
+import instai from './portfolioimg/Insta.png';
+import linki from './portfolioimg/linkedinn.png'
+import maili from './portfolioimg/mail.png'
+import './App.css'
 
 
 class App extends Component {
@@ -61,7 +65,23 @@ class App extends Component {
 
 
     </BrowserRouter>   */}
+<StickyFooter
+    bottomThreshold={50}
+    normalStyles={{
+    backgroundColor: "#CED0CE",
+    padding: "0.5rem"
+    }}
+    stickyStyles={{
+    backgroundColor: "rgba(255,255,255,.8)",
+    padding: "0.6rem"
+    }}
+>
+    <a href="mailto:maya.l.hopper@gmail.com"><img src={maili} className='icons'></img> </a>
+    <a href="https://www.linkedin.com/in/maya-hopper-5a31a7183/"><img src={linki} className='icons'></img> </a>
+    <a href="https://www.instagram.com/maya.hop/"><img src={instai} className='icons'></img> </a>
 
+
+</StickyFooter>
 
 </div>
 
