@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from '../portfolioimg/squid.jpg';
+import image from '../portfolioimg/home.jpg';
 import '../App.css';
 
 function Default(props) {
