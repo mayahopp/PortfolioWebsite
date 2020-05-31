@@ -9,6 +9,8 @@ import faced from '../portfolioimg/faced.jpg'
 import squid from '../portfolioimg/squid.jpg'
 import long from '../portfolioimg/long.jpg'
 import rin from '../portfolioimg/rin.jpg'
+import rind3 from '../portfolioimg/rind3.jpg'
+import rind4 from '../portfolioimg/rind4.jpg'
 import hair1 from '../portfolioimg/360hair1.jpg'
 import hair2 from '../portfolioimg/360d1.jpg'
 import hair3 from '../portfolioimg/360d4.jpg'
@@ -22,6 +24,8 @@ import kimonod3 from '../portfolioimg/kimonod3.jpg'
 import longd4 from '../portfolioimg/longd4.jpg'
 import longd2 from '../portfolioimg/longd2.jpg'
 import longd3 from '../portfolioimg/longd3.jpg'
+import danield1 from '../portfolioimg/danield1.jpg'
+import danield2 from '../portfolioimg/danield2.jpg'
 import '../App.css';
 import '../portfolioimg/kimono.jpg'
  
@@ -46,13 +50,13 @@ function SingleSource({ src }) {
 // images array. images in each group will be displayed horizontally.
 // first element is the text that goes along with that group
 const groups = [
-  {text: "Pen and ink\n14in x 18in", images: [kimono, kimonod3, kimonod2, kimonod1]}, 
-  {text: "Pen and ink\n8.5in x 10.5", images: [daniel]}, 
-  {text: "Pencil\n11in x 14in", images: [face, faced]},
-  {text: "Pen\n22in x 30in", images: [squid, squidd1, squidd4, squidd3]},
-  {text: "Pen\n14.5in x 25in", images: [long, longd2, longd3, longd4]},
-  {text: "Pen\n13.5in x 17in", images: [rin]},
-  {text: "Acrylic, canvas board, thread\nsize", images: [hair1, hair2, hair3, hair4]}
+  {text: "Ink on Paper,  2016\n14in x 18in", images: [kimono, kimonod3, kimonod2, kimonod1]}, 
+  {text: "Pencil on Paper, 2015\n11in x 14in", images: [face, faced]},
+  {text: "Ink on Paper,  2019\n22in x 30in", images: [squid, squidd1, squidd4, squidd3]},
+  {text: "Ink on Paper, 2017\n14.5in x 25in", images: [long, longd2, longd3, longd4]},
+  {text: "Ink on Paper, 2017\n13.5in x 17in", images: [rin, rind3, rind4]},
+  {text: "Ik on Paper, 2017\n8.5in x 10.5", images: [daniel, danield1, danield2]}, 
+  {text: "Book with Acrylic, canvas board, thread, 2018\nsize", images: [hair1, hair2, hair3, hair4]}
 ];
 
 

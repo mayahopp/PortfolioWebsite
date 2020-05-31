@@ -89,7 +89,7 @@
 }
 
 .imgtext{
-  padding-left: 40pt;
+  padding-left: 45pt;
   white-space: pre-wrap;
   font-size:13px;;
   
@@ -111,8 +111,13 @@ border: 0;
   }
 body {
   font-family: 'MyFont';
-  background-color: white;
+  background-image: url("./portfolioimg/shadowt.jpg") ; 
+  background-size: 200% 100%;
+  background-repeat: repeat-y;
+  background-position-x: 0%;
+  background-attachment: 0;
 }
+
 
 h1{
   float: inherit;
@@ -125,12 +130,20 @@ h1{
 
 .aboutpara{
   padding-top: 30pt;
-  padding-left:20pt;
+  padding-left:100pt;
+  padding-right:300pt;
   padding-bottom: 50pt;
   text-align: left;
   font-size:10pt;
+  box-sizing: border-box;
+  width: 700pt;
+  height:auto;
+  color: grey;
 }
+
+
 p{
+  
   padding-left: 20pt;
 }
 h2{
@@ -146,9 +159,12 @@ h4{
   padding-bottom: 20px;
 }
 .aboutmep{
-  height:400pt;
-  float:right;
+  height: 400pt;
+  margin-left: 10%;
+  float: right;
+
 }
+
 
 .icons{
   height:12pt;
