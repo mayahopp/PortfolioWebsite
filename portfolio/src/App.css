@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+.titletext .btn {
+    display: inline-block;
+}
+
+
+.titletext{
+  display: table-row; 
+}
+ .btn-titletext {
+  float:left;
+  font-size:270%;
+  color:black !important;
+  padding-left:15pt !important;
+  text-decoration: none !important;
+  
+}
+.titletext .btn:hover{
+  color:black;
+}
+
+.btn{
+  padding-top:7pt;
+  color:#282c34
+}
+.btn:hover{
+  color:grey
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn:active{
+  color:green;
+}
+
+.image{
+  width:100%;
+  height:100%;
+}
+
+.imageblock {
+  text-align: center;
+  display:block;
+}
+
+.imgtext{
+  padding-left: 45pt;
+  white-space: pre-wrap;
+  font-size:13px;;
+  
+}
+.imgimg{
+  padding-left:40pt;
+  
+}
+hr{
+border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+  
+  @font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./font/Rajdhani-Regular.ttf) format('truetype');
+  }
+body {
+  font-family: 'MyFont';
+  background-image: url("./portfolioimg/shadowt.jpg") ; 
+  background-size: 200% 100%;
+  background-repeat: repeat-y;
+  background-position-x: 0%;
+  background-attachment: 0;
+}
+
+
+h1{
+  float: inherit;
+  font-size: 25pt;
+}
+.Abouth1{
+  
+  padding: 30pt;
+}
+
+.aboutpara{
+  padding-top: 30pt;
+  padding-left:100pt;
+  padding-right:300pt;
+  padding-bottom: 50pt;
+  text-align: left;
+  font-size:10pt;
+  box-sizing: border-box;
+  width: 700pt;
+  height:auto;
+  color: grey;
+}
+
+
+p{
+  
+  padding-left: 20pt;
+}
+h2{
+  font-size: 15pt;
+}
+h3{
+  font-size:12pt;
+}
+h4{
+  font-size: 10pt;
+}
+.pagetitle{
+  padding-bottom: 20px;
+}
+.aboutmep{
+  height: 400pt;
+  margin-left: 10%;
+  float: right;
+
+}
+
+
+.icons{
+  height:12pt;
+  margin-right:7pt;
+  margin-left:7pt;
+  text-decoration: none;
+}
+/* .chair1{
+  height:200pt;
+  padding-top: 200pt;
+  padding-left: 20pt;
+
+}
+.chair2{
+  height:200pt;
+}
+.chair3{
+  height:200pt;
+}
+
+.kimono{
+  height:200pt;
+}
+.long{
+  height:200pt;
+
+}
+.face{
+  height:200pt;
+}
+.squid{
+  height:200pt;
+}
+.rin{
+  height:200pt;
+}
+.daniel{
+  height:200pt;
+} */
