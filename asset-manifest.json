@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite/static/css/main.404f4f43.chunk.css",
-    "main.js": "/PortfolioWebsite/static/js/main.ee459f03.chunk.js",
-    "main.js.map": "/PortfolioWebsite/static/js/main.ee459f03.chunk.js.map",
+    "main.css": "/PortfolioWebsite/static/css/main.1fc9e503.chunk.css",
+    "main.js": "/PortfolioWebsite/static/js/main.e7ffcb00.chunk.js",
+    "main.js.map": "/PortfolioWebsite/static/js/main.e7ffcb00.chunk.js.map",
     "runtime-main.js": "/PortfolioWebsite/static/js/runtime-main.799258d4.js",
     "runtime-main.js.map": "/PortfolioWebsite/static/js/runtime-main.799258d4.js.map",
     "static/css/2.af3c1da9.chunk.css": "/PortfolioWebsite/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.d5eb6c99.chunk.js": "/PortfolioWebsite/static/js/2.d5eb6c99.chunk.js",
-    "static/js/2.d5eb6c99.chunk.js.map": "/PortfolioWebsite/static/js/2.d5eb6c99.chunk.js.map",
+    "static/js/2.63bd0684.chunk.js": "/PortfolioWebsite/static/js/2.63bd0684.chunk.js",
+    "static/js/2.63bd0684.chunk.js.map": "/PortfolioWebsite/static/js/2.63bd0684.chunk.js.map",
     "index.html": "/PortfolioWebsite/index.html",
-    "precache-manifest.55756e95854c919e041d7892c53116e1.js": "/PortfolioWebsite/precache-manifest.55756e95854c919e041d7892c53116e1.js",
+    "precache-manifest.2805e1fddaab8c04ab0ba54c805e45a6.js": "/PortfolioWebsite/precache-manifest.2805e1fddaab8c04ab0ba54c805e45a6.js",
     "service-worker.js": "/PortfolioWebsite/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/PortfolioWebsite/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.404f4f43.chunk.css.map": "/PortfolioWebsite/static/css/main.404f4f43.chunk.css.map",
-    "static/js/2.d5eb6c99.chunk.js.LICENSE.txt": "/PortfolioWebsite/static/js/2.d5eb6c99.chunk.js.LICENSE.txt",
+    "static/css/main.1fc9e503.chunk.css.map": "/PortfolioWebsite/static/css/main.1fc9e503.chunk.css.map",
+    "static/js/2.63bd0684.chunk.js.LICENSE.txt": "/PortfolioWebsite/static/js/2.63bd0684.chunk.js.LICENSE.txt",
     "static/media/10collumn.jpg": "/PortfolioWebsite/static/media/10collumn.9c7e0845.jpg",
     "static/media/360d1.jpg": "/PortfolioWebsite/static/media/360d1.e88092da.jpg",
     "static/media/360d3.jpg": "/PortfolioWebsite/static/media/360d3.2138052b.jpg",
@@ -31,7 +31,7 @@
     "static/media/NomadsJersey.jpg": "/PortfolioWebsite/static/media/NomadsJersey.f8d2ce1a.jpg",
     "static/media/Poster1.png": "/PortfolioWebsite/static/media/Poster1.ff7a7f8d.png",
     "static/media/Poster2.png": "/PortfolioWebsite/static/media/Poster2.7e27735f.png",
-    "static/media/App.css": "/PortfolioWebsite/static/media/shadowt.94c6c723.jpg",
+    "static/media/App.css": "/PortfolioWebsite/static/media/Rajdhani-Regular.fb987593.ttf",
     "static/media/building.jpg": "/PortfolioWebsite/static/media/building.ec298d7d.jpg",
     "static/media/chair1.jpg": "/PortfolioWebsite/static/media/chair1.2e69ccef.jpg",
     "static/media/chair2.jpg": "/PortfolioWebsite/static/media/chair2.1407d561.jpg",
@@ -42,6 +42,7 @@
     "static/media/face.jpg": "/PortfolioWebsite/static/media/face.7e28151d.jpg",
     "static/media/faced.jpg": "/PortfolioWebsite/static/media/faced.27dd143a.jpg",
     "static/media/fontd.jpg": "/PortfolioWebsite/static/media/fontd.39fcc13a.jpg",
+    "static/media/fullpiecee.jpg": "/PortfolioWebsite/static/media/fullpiecee.c743ca73.jpg",
     "static/media/home1.jpg": "/PortfolioWebsite/static/media/home1.73c77cf4.jpg",
     "static/media/jerseyshirt.jpg": "/PortfolioWebsite/static/media/jerseyshirt.0f8209f1.jpg",
     "static/media/kimono.jpg": "/PortfolioWebsite/static/media/kimono.c1a25272.jpg",
@@ -66,8 +67,8 @@
   "entrypoints": [
     "static/js/runtime-main.799258d4.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.d5eb6c99.chunk.js",
-    "static/css/main.404f4f43.chunk.css",
-    "static/js/main.ee459f03.chunk.js"
+    "static/js/2.63bd0684.chunk.js",
+    "static/css/main.1fc9e503.chunk.css",
+    "static/js/main.e7ffcb00.chunk.js"
   ]
 }

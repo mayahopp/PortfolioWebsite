@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f6dfc5077d3e7345e6b5d497a1cbf84",
+    "revision": "7c95f91d2d6c2a6bf9cf665e832b46ff",
     "url": "/PortfolioWebsite/index.html"
   },
   {
-    "revision": "13fde93a8417ae24ef2c",
+    "revision": "0a5440c8ff3682dc2c52",
     "url": "/PortfolioWebsite/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "38358a8c3d22ea5e7605",
-    "url": "/PortfolioWebsite/static/css/main.404f4f43.chunk.css"
+    "revision": "a136870f8ca7f054fba4",
+    "url": "/PortfolioWebsite/static/css/main.1fc9e503.chunk.css"
   },
   {
-    "revision": "13fde93a8417ae24ef2c",
-    "url": "/PortfolioWebsite/static/js/2.d5eb6c99.chunk.js"
+    "revision": "0a5440c8ff3682dc2c52",
+    "url": "/PortfolioWebsite/static/js/2.63bd0684.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/PortfolioWebsite/static/js/2.d5eb6c99.chunk.js.LICENSE.txt"
+    "url": "/PortfolioWebsite/static/js/2.63bd0684.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38358a8c3d22ea5e7605",
-    "url": "/PortfolioWebsite/static/js/main.ee459f03.chunk.js"
+    "revision": "a136870f8ca7f054fba4",
+    "url": "/PortfolioWebsite/static/js/main.e7ffcb00.chunk.js"
   },
   {
     "revision": "cb61986a5b9b9180a265",
@@ -140,6 +140,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortfolioWebsite/static/media/fontd.39fcc13a.jpg"
   },
   {
+    "revision": "c743ca73bfa0e3442babc5e28c344304",
+    "url": "/PortfolioWebsite/static/media/fullpiecee.c743ca73.jpg"
+  },
+  {
     "revision": "73c77cf4747e6a8b398c81cfbb460249",
     "url": "/PortfolioWebsite/static/media/home1.73c77cf4.jpg"
   },
@@ -198,10 +202,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ed25d1141b54047ddc971b8775afe128",
     "url": "/PortfolioWebsite/static/media/rind4.ed25d114.jpg"
-  },
-  {
-    "revision": "94c6c7239c8d3217c77a787ac4560104",
-    "url": "/PortfolioWebsite/static/media/shadowt.94c6c723.jpg"
   },
   {
     "revision": "7c8191615ee34fdb2b2a0df8df0288bb",
