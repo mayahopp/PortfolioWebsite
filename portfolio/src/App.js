@@ -34,6 +34,9 @@ class App extends Component {
     return (
     
     <div>
+      <header>
+      <title>Mayaaaaa</title>
+      </header>
     {/* <MenuListComposition />
     <Home />   */}
 

@@ -16,6 +16,7 @@ import poster1 from '../portfolioimg/Poster2.png';
 import poster2 from '../portfolioimg/Poster1.png';
 import nomad from '../portfolioimg/NomadsJersey.jpg';
 import nomadd from '../portfolioimg/jerseyshirt.jpg';
+import full from '../portfolioimg/fullpiecee.jpg';
 import c1 from '../portfolioimg/3collumn.jpg'
 import c2 from '../portfolioimg/4collumn.jpg'
 import c3 from '../portfolioimg/5collumn.jpg'
@@ -45,6 +46,7 @@ function SingleSource({ src }) {
 }
 
 const groups = [
+  {text: "digital illustration, 2020\nAdobe Photoshop", images:[full]},
   {text: "Japan Culture night poster at University of Oregon, Left:2019, Right:2018\nCreated on Autodesk Sketch Mobile App", images: [poster1, poster2]},
   {text: "Jersey desgined for a local cycling team, 2019\nChanged color of jerseys and added 'sportsclub' and '50th since 1986'\nCreated on Adobe Photoshop ", images: [nomad, nomadd]}, 
   {text: "Disintegrating chair trio, 2019\nCreated with Photoshop on Huion tablet", images: [chair1, chair2, chair3]}, 

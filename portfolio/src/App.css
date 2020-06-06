@@ -111,11 +111,12 @@ border: 0;
   }
 body {
   font-family: 'MyFont';
-  background-image: url("./portfolioimg/shadowt.jpg") ; 
+  /* background-image: url("./portfolioimg/shadowt.jpg") ;  */
   background-size: 200% 100%;
   background-repeat: repeat-y;
   background-position-x: 0%;
   background-attachment: 0;
+  background-color: #fafffa;
 }
 
 
@@ -164,7 +165,6 @@ h4{
   float: right;
 
 }
-
 
 .icons{
   height:12pt;

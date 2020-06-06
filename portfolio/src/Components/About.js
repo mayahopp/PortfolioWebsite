@@ -12,7 +12,7 @@ class About extends Component {
       <p className='startp'>Hello, my name is Maya Hopper and I am currently a 
       junior at the University of Oregon studying Art and Technology. 
       I have been interested in the arts since childhood, and have recently started
-       working digitally to achieve further connection with digital media, including adding artistic approaches to programming. This portfolio website is made with React native by me! 
+       working digitally to achieve further connection with digital media, including adding artistic approaches to programming. This portfolio website is made with React by me! 
 < br/></p>
       <h2>Location</h2>
       <p>Portland, Oregon <br />
