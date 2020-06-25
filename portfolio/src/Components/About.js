@@ -12,7 +12,7 @@ class About extends Component {
       <p className='startp'>Hello, my name is Maya Hopper and I am currently a 
       junior at the University of Oregon studying Art and Technology. 
       I have been interested in the arts since childhood, and have recently started
-       working digitally to achieve further connection with digital media, including adding artistic approaches to programming. This portfolio website is made with React by me! 
+       working digitally to achieve further connection with digital media, including adding artistic approaches to programming. I created this portfolio website with React! 
 < br/></p>
       <h2>Location</h2>
       <p>Portland, Oregon <br />
@@ -36,11 +36,11 @@ class About extends Component {
              Server at My Favorite Muffin
             </p>
             <p>July 2018 - August 2018<br />
-            Packing at Yamato Transport
+             Warehouse Worker at Yamato Transport
              </p>
       <h3>2017</h3>
          <p>June 2017 - September 2017<br />
-           Direct Supprt Professiional at Imagine Possibilities
+           Direct Support Professional at Imagine Possibilities
             </p>
       <h2>Exposure to</h2>
       <li>Adobe Photoshop </li>
