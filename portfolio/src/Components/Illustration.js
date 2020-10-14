@@ -1,0 +1,97 @@
+import React from 'react'
+//import Thumbnail from '../Thumbnail.js';
+import Image from "react-image-enlarger";
+//import Zoom from 'react-thumbnail-zoom'
+import kimono from '../portfolioimg/kimono.jpg'
+import daniel from '../portfolioimg/daniel.jpg'
+import face from '../portfolioimg/face.jpg'
+import faced from '../portfolioimg/faced.jpg'
+import squid from '../portfolioimg/squid.jpg'
+import long from '../portfolioimg/long.jpg'
+import rin from '../portfolioimg/rin.jpg'
+import rind3 from '../portfolioimg/rind3.jpg'
+import rind4 from '../portfolioimg/rind4.jpg'
+import hair1 from '../portfolioimg/360hair1.jpg'
+import hair2 from '../portfolioimg/360d1.jpg'
+import hair3 from '../portfolioimg/360d4.jpg'
+import hair4 from '../portfolioimg/360d3.jpg'
+import squidd1 from '../portfolioimg/squidd1.jpg'
+import squidd3 from '../portfolioimg/squidd3.jpg'
+import squidd4 from '../portfolioimg/squidd4.jpg'
+import kimonod1 from '../portfolioimg/kimonod1.jpg'
+import kimonod2 from '../portfolioimg/kimonod2.jpg'
+import kimonod3 from '../portfolioimg/kimonod3.jpg'
+import longd4 from '../portfolioimg/longd4.jpg'
+import longd2 from '../portfolioimg/longd2.jpg'
+import longd3 from '../portfolioimg/longd3.jpg'
+import danield1 from '../portfolioimg/danield1.jpg'
+import danield2 from '../portfolioimg/danield2.jpg'
+import '../App.css';
+import '../portfolioimg/kimono.jpg'
+import chair1 from '../portfolioimg/chair1.jpg';
+import chair2 from '../portfolioimg/chair2.jpg';
+import chair3 from '../portfolioimg/chair3.jpg';
+import full from '../portfolioimg/fullpiecee.jpg';
+
+ 
+function SingleSource({ src }) {
+  const [zoomed, setZoomed] = React.useState(false);
+
+  return (
+    <div style={{ margin: "0.5rem" }}>
+      <Image
+        style={{ width: "200px", height: "auto" }}
+        zoomed={zoomed}
+        src={src}
+        onClick={() => setZoomed(true)}
+        onRequestClose={() => setZoomed(false)}
+      />
+      
+      
+    </div>
+  );
+}
+
+// images array. images in each group will be displayed horizontally.
+// first element is the text that goes along with that group
+const groups = [
+  {text: "digital illustration, 2020\nAdobe Photoshop", images:[full]},
+  {text: "Ink on Paper,  2016\n14in x 18in", images: [kimono, kimonod3, kimonod2, kimonod1]}, 
+  {text: "Pencil on Paper, 2015\n11in x 14in", images: [face, faced]},
+  {text: "Ink on Paper,  2019\n22in x 30in", images: [squid, squidd1, squidd4, squidd3]},
+  {text: "Ink on Paper, 2017\n14.5in x 25in", images: [long, longd2, longd3, longd4]},
+  {text: "Ink on Paper, 2017\n13.5in x 17in", images: [rin, rind3, rind4]},
+  {text: "Ik on Paper, 2017\n8.5in x 10.5", images: [daniel, danield1, danield2]}, 
+  {text: "Disintegrating chair trio, 2019\nCreated with Photoshop on Huion tablet", images: [chair1, chair2, chair3]}, 
+  {text: "Book with Acrylic, canvas board, thread, 2018\nsize", images: [hair1, hair2, hair3, hair4]}
+];
+
+
+
+function Illustration(props) {
+  return (
+    <div> <h1 className='pagetitle'>↓　　ILLUSTRATION　　↓</h1>
+    <div style={{ display: "block" }}>
+      {groups.map(one_group => (
+        
+        <div style={{ display: "block", textAlign: "left", paddingBottom: "50px"}}>
+        <div className='imgimg' style={{ display: "flex" }}>
+          {one_group.images.map(image =>(
+            <SingleSource  key={image} src={image} />
+        ))}
+        </div> 
+        
+          <div className='imgtext'>
+            {one_group.text }
+          </div>
+          <hr />
+        </div>
+       
+        
+      ))}
+      </div>
+    </div>
+  );
+}
+ 
+export default Illustration;

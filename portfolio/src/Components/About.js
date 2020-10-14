@@ -22,7 +22,7 @@ class About extends Component {
       <p>University of Oregon class of 2021
         Major in Art and Technology, minor in Japanese and Computer Information Technology.
       </p>
-      <h2>Job History</h2>
+      {/* <h2>Job History</h2>
       <h3>2020</h3>
           <p>March 2017 - Present <br />
            Personal Care Worker at Childeren's Intensive In-Home Services
@@ -49,8 +49,15 @@ class About extends Component {
       <li>HTML & CSS</li>
       <li>React</li>
       <li>JavaScript</li>
-      <li>MySQL</li>
-    </div>
+      <li>MySQL </li>
+      */}
+<div>
+  <h3>Contact</h3>
+<li><a href="mailto:maya.l.hopper@gmail.com">email</a></li>
+<li><a href="https://www.linkedin.com/in/maya-hopper-5a31a7183/" target="_blank">LinkedIn</a></li>
+
+</div>
+</div> 
       );
     }
   }

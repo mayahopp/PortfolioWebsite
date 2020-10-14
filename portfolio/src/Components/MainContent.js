@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 import About from './About.js'
-import Projects from './Projects.js'
+import Illustration from './Illustration.js'
 import Analog from './Analog.js'
-import Digital from './Digital.js'
+import Design from './Design.js'
+import Lines from './Lines.js'
 import Default from './Default.js'
 
 class MainContent extends Component {
@@ -16,11 +17,17 @@ class MainContent extends Component {
         else if (this.props.content === "about") {
             return (<About />)
         }
+        else if (this.props.content === "illustration") {
+            return (<Illustration />)
+        }
+        else if (this.props.content === "lines") {
+            return (<Lines />)
+        }
         else if (this.props.content === "analog") {
             return (<Analog />)
         }
-        else if (this.props.content === "digital") {
-            return (<Digital />)
+        else if (this.props.content === "design") {
+            return (<Design />)
         };
     }
     

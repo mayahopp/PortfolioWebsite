@@ -42,15 +42,15 @@
     display: inline-block;
 }
 
-
 .titletext{
   display: table-row; 
 }
+
  .btn-titletext {
-  float:left;
+  float:right;
   font-size:270%;
   color:black !important;
-  padding-left:15pt !important;
+  padding-left:15pt !important; 
   text-decoration: none !important;
   
 }
@@ -70,7 +70,7 @@
 }
 .justify-content-between .btn:active{
   color:green;
-}
+} 
 
 .image{
   width:100%;
@@ -93,7 +93,8 @@
   
 }
 .imgimg{
-  padding-left:40pt;
+ padding-left:40pt;
+float:center
   
 }
 hr{
@@ -170,4 +171,3 @@ h4{
   margin-left:7pt;
   text-decoration: none;
 }
-

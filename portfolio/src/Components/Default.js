@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import image from '../portfolioimg/home1.jpg';
 import image2 from '../portfolioimg/kimono.jpg';
+import full from '../portfolioimg/fullpiecee.jpg';
 import '../App.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Button, ButtonGroup, ButtonToolbar } from 'react-bootstrap';
@@ -11,26 +12,27 @@ import { Button, ButtonGroup, ButtonToolbar } from 'react-bootstrap';
 
 function Default(props) {
     return (
-      <div>{/* <div>
+      <div><div>
           
-        <img src={image} className='image'/>
+        <img src={image} className='image'/> 
         </div>
- */}
+ 
         
 
-        
+        {/* 
           <Carousel>
+              
               <div>
               <img src={image} className='image'/>
-                  <p className="ichi">Legend 1</p>
+                  <p className="ichi">ichi</p>
               </div>
               <div>
               <img src={image2} className='image2'/>
-                  <p className="ni">Legend 2</p>
+                  <p className="ni">ni</p>
               </div>
               
           </Carousel>
-        
+     */}
 
 
 

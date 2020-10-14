@@ -45,11 +45,9 @@ function SingleSource({ src }) {
 }
 
 const groups = [
-  {text: "digital illustration, 2020\nAdobe Photoshop", images:[full]},
   {text: "Japan Culture night poster at University of Oregon, Left:2019, Right:2018\nCreated on Autodesk Sketch Mobile App", images: [poster1, poster2]},
   {text: "Jersey desgined for a local cycling team, 2019\nChanged color of jerseys and added 'sportsclub' and '50th since 1986'\nCreated on Adobe Photoshop ", images: [nomad, nomadd]}, 
-  {text: "Disintegrating chair trio, 2019\nCreated with Photoshop on Huion tablet", images: [chair1, chair2, chair3]}, 
-  {text: "Created font, 2019\nCreated on Adobe Illustrator ", images: [font, fontd]}, 
+  {text: "Created font, 2019\nCreated on Adobe Illustrator ", images: [font]}, 
   // {text: "text for group 4", images: [manga]},
   {text: "Sample templates created from Lawrence Weiner's 'declaration of intent', 2020 \ncreated on Adobe Illustrator", images: [c1, c2, c3, c4, c5, c6, c7, c8]},
   {text: "Small Photoshop projects based on juxtaposition, 2019", images: [ building, sky, leaf]}
@@ -59,9 +57,9 @@ const groups = [
 
 
 
-function Digital(props) {
+function Design(props) {
   return (
-    <div> <h1 className='pagetitle'>↓　　DIGITAL　　↓</h1>
+    <div> <h1 className='pagetitle'>↓　　DESIGN　　↓</h1>
     <div style={{ display: "block" }}>
       
       {groups.map(one_group => (
@@ -87,7 +85,7 @@ function Digital(props) {
   );
 }
  
-export default Digital; 
+export default Design; 
  
 
 
