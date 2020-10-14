@@ -46,7 +46,7 @@ function SingleSource({ src }) {
 
 const groups = [
   {text: "Japan Culture night poster at University of Oregon, Left:2019, Right:2018\nCreated on Autodesk Sketch Mobile App", images: [poster1, poster2]},
-  {text: "Jersey desgined for a local cycling team, 2019\nChanged color of jerseys and added 'sportsclub' and '50th since 1986'\nCreated on Adobe Photoshop ", images: [nomad, nomadd]}, 
+  {text: "Jersey desgined for a local cycling team, 2019\nChanged color of jerseys and added 'sportsclub' and '50th since 1970'\nCreated on Adobe Photoshop ", images: [nomad, nomadd]}, 
   {text: "Created font, 2019\nCreated on Adobe Illustrator ", images: [font]}, 
   // {text: "text for group 4", images: [manga]},
   {text: "Sample templates created from Lawrence Weiner's 'declaration of intent', 2020 \ncreated on Adobe Illustrator", images: [c1, c2, c3, c4, c5, c6, c7, c8]},
